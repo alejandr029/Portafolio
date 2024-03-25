@@ -2,19 +2,16 @@ import { Csharp, Django, DotNet, NodeJs, Python } from '../../assets/icons_skill
 import { Angular, Bootstrap, Css, HTML, JavaScript, React, TypeScript } from '../../assets/icons_skills/frontend.tsx';
 import { Docker, Rust, Tailwind } from '../../assets/icons_skills/learning.tsx';
 import { Git, Linux } from '../../assets/icons_skills/technologie.tsx';
+import SkillCard from './skillCard.tsx';
 
 export default function Skills (){
     return(
         <>
             <h3 className="title text-3xl font-bold">Skills</h3>
             <section className="grid grid-cols-6 grid-flow-row gap-4 mx-auto w-[80%] mt-5">
-                
-                
-                <div className="rounded-2xl bg-gray-800/45 col-span-4">
-                    <h3 className="py-5 capitalize text-2xl">Backend</h3>
 
-                    <ul className="grid grid-cols-4 grid-flow-row gap-4 py-5">
-                    <li>
+                <SkillCard title="Backend" classStyle="col-span-4">
+                        <li>
                             <Python />
                             Python
                         </li>
@@ -36,15 +33,9 @@ export default function Skills (){
                             <DotNet />
                             DotNet
                         </li>
+                </SkillCard>
 
-                    </ul>
-
-                </div>
-
-
-                <div className="rounded-2xl bg-gray-800/45 col-span-2">
-                    <h3 className="py-5 capitalize text-2xl">Fronend</h3>
-                    <ul className="grid grid-cols-3 grid-flow-row gap-4 py-5">
+                <SkillCard title="Fronend" classStyle="col-span-2">
                         <li>
                             <HTML />
                             HTML
@@ -73,13 +64,10 @@ export default function Skills (){
                             <React />
                             React
                         </li>
-                    </ul >
-                </div>
 
-                <div className="rounded-2xl bg-gray-800/45 col-span-2">
-                    <h3 className="py-5 capitalize text-2xl">Technologies</h3>
+                </SkillCard>
 
-                    <ul className="grid grid-cols-3 grid-flow-row gap-4 py-5">
+                <SkillCard title="Technologies" classStyle="col-span-2">
                         <li>
                             <Linux />
                             Linux
@@ -88,14 +76,9 @@ export default function Skills (){
                             <Git />
                             Git
                         </li>
-                    </ul>
+                </SkillCard>
 
-                </div>
-
-                <div className="rounded-2xl bg-gray-800/45 col-span-4">
-                    <h3 className="py-5 capitalize text-2xl">Learning</h3>
-
-                    <ul className="grid grid-cols-4 grid-flow-row gap-4 py-5">
+                <SkillCard title="Learning" classStyle="col-span-4">
                         <li>
                             <Docker />
                             Docker
@@ -109,10 +92,9 @@ export default function Skills (){
                             <Rust />
                             Rust
                         </li>
+                </SkillCard>
 
-                    </ul>
 
-                </div>
 
             </section>
             

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function CardProjects({project}: any) {
     return(
-    <Link className="max-w-sm mx-1 border rounded-t-lg shadow bg-gray-800 border-gray-700" to={`/Individual_project/${project.id}`}>
+    <Link className="max-w-sm mx-1 border rounded-t-lg shadow bg-gray-800 border-gray-700 logo_shadow" to={`/Individual_project/${project.id}`}>
         
         <img className="rounded-t-lg" src={project.icon} alt={project.description}  />
 

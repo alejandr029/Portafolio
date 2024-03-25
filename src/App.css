@@ -110,3 +110,7 @@
     }
   
   }
+  .logo_shadow:hover{
+    filter: drop-shadow(0 0 .3em #747bff);
+    transform: scale(1.03);
+  }
