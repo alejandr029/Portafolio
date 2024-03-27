@@ -6,13 +6,13 @@
         "title": "record system for a cosmetic surgery clinic",
         "function": "Software Developer and database desing",
         "company": "University project - UTT",
-        "rewiew": "This project was developed with the aim of being able to save the data of the patients and with it be more secure.",
-        "information" : "In this project it was developed during the 8th cautrismestre and the main function was taken to save the data of the patients and with it be more secure.",
+        "rewiew": "A meticulously planned project, dedicated to enhancing data security and regulatory compliance in patient record storage. Focused on optimizing operational frameworks within aesthetic surgeries clinics, it promises improved efficiency and elevated patient experiences. With a visionary aim to revolutionize clinic management, this endeavor marks a significant stride towards redefining industry standards.",
+        "information" : "Embarking on a transformative journey, our project unfolded over three dynamic cuatrimesters, from the 8th to the 10th, with a singular mission: fortify data storage for patient records. At the forefront of our efforts was the enhancement of data security and adherence to regulatory standards, ensuring utmost confidentiality. Our focus honed in on the intricate operational framework of aesthetic surgeries clinics, meticulously crafting solutions to elevate efficiency and augment the patient experience. As the culmination of our endeavors, we envisaged not just an evolution but a revolution in clinic management, poised to redefine standards in aesthetic surgeries.",
         "icon" : "/beautysys.webp",
         "description": "Home Page for Beautysys",
         "type_of_project": "Frontend and Backend",
         "images":[
-            "/beautysys.webp"
+            "/beautysys_main.webp"
 
         ],
         "technologies": [
@@ -27,12 +27,13 @@
         "title": "Finansas",
         "function": "Software Developer",
         "company": "BajaLogics",
-        "rewiew": "This project is based on a financial data application as well as the validation of different vendor products and my role in this project was to generate and improve functionalities as well as bug fixes.",
-        "information" : "This project is based on a financial data application as well as the validation of different vendor products and my role in this project was to generate and improve functionalities as well as bug fixes.",
-        "icon" : " ",
+        "rewiew": "The development of financial data applications and the validation of supplier products. It emphasizes improving performance and reliability while ensuring smooth operations. Effectively communicates proactive contribution and responsibility in maintaining application integrity. Overall, it demonstrates a commitment to excellence in financial data management.",
+        "information" : "In the realm of financial data application and vendor product validation, my role was paramount, tasked with both development and enhancement of functionalities, alongside diligent bug resolution. The overarching objective remained steadfast: to elevate application performance and fortify its reliability in critical operations. The scope of my responsibilities extended to the meticulous validation of diverse vendor products and seamless data processing. Through proactive contribution, I not only introduced novel functionalities but also executed prompt bug fixes, bolstering the application's efficacy. Ultimately, my responsibility was to maintain the seamless operation of the financial data application, safeguarding its integral role in organizational workflows.",
+        "icon" : "/finansaas.webp",
         "description": "Ui desing for finansaas project",
         "type_of_project": "Frontend",
         "images":[
+            "/finansaas_main.webp"
         ],
         "technologies": [
             "Asp.Net",

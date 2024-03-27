@@ -1,7 +1,7 @@
 {
-"Asp.Net": "ASP.Net framework is a web development platform provided by Microsoft.",
-"Angular": "Angular is a framework for building single-page client applications.",
-"SQL Server": "Database Management System (DBMS) from Microsoft.",
-"Laravel": "Laravel is a web application framework.",
-"laravel jetstream": "laravel jetstream is a designed application scaffolding for Laravel."
+    "Asp.Net": "ASP.NET is a web development framework developed by Microsoft. It enables developers to build dynamic web applications and services using .NET technologies.",
+    "Angular": "Angular is a TypeScript-based web application framework. It is maintained by Google and is widely used for building single-page client applications with rich user interfaces.",
+    "SQL Server": "SQL Server is a relational database management system (RDBMS) developed by Microsoft. It provides a robust and secure platform for storing, retrieving, and managing data.",
+    "Laravel": "Laravel is a PHP-based web application framework known for its elegant syntax and expressive, developer-friendly features. It follows the Model-View-Controller (MVC) architectural pattern.",
+    "laravel jetstream": "Laravel Jetstream is a designed application scaffolding for Laravel, offering authentication, two-factor authentication, session management, API support, and team management functionalities out of the box. It provides a solid foundation for building modern web applications."
 }

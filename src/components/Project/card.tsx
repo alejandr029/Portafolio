@@ -4,9 +4,12 @@ export default function CardProjects({project}: any) {
     return(
     <Link className="max-w-sm mx-1 border rounded-t-lg shadow bg-gray-800 border-gray-700 logo_shadow" to={`/Individual_project/${project.id}`}>
         
-        <img className="rounded-t-lg" src={project.icon} alt={project.description}  />
+        <picture className="rounded-t-lg h-[186px] flex items-center bg-white">
+            <img className="w-full h-full object-cover" src={project.icon} alt={project.description}/>
+        </picture>
 
-    <div className="p-5">
+
+    <div className="p-5 text-left">
         
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white capitalize">{project.title}</h5>
         <div className="flex items-center mt-2.5 mb-5">
@@ -15,7 +18,7 @@ export default function CardProjects({project}: any) {
             ))}
         </div>
         
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        <p className="mb-3 font-semibold text-gray-200/70 text-xl">
             {project.rewiew}
         </p>
 

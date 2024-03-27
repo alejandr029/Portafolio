@@ -45,18 +45,18 @@ export default function Individual_project() {
 
         </section>
 
-        <section className='md:w-[30%] md:h-[100vh] right-0 max-md:mb-5 p-2 z-20 fixed max-md:relative bg-gray-800/45'>
+        <section className='md:w-[30%] md:h-[100vh] right-0 max-md:mb-5 p-2 z-20 fixed max-md:relative bg-gray-800/45 overflow-y-scroll'>
               <div className='my-[5vh]'>
-                <h1 className='text-3xl text-left mx-3 font-bold capitalize'>{Datajson?.title} </h1>
+                <h1 className='text-3xl text-left mx-3 font-bold capitalize text-white'>{Datajson?.title} </h1>
 
-                <div className='text-left my-2 mx-3 font-semibold'>
+                <div className='text-left my-2 mx-3 font-semibold text-white/90'>
                   <div><b>Date:</b> {Datajson?.date}</div>
-                  <div> <b>Type of Proyect: </b>{Datajson?.type_of_project} </div>
-                  <h1 className='text-2xl mt-5 font-bold text-white' >Project Information</h1>
-                  <p className='text-lg font-semibold '>{Datajson?.information}</p>
+                  <div><b>Type of Proyect: </b>{Datajson?.type_of_project} </div>
+                  <h1 className='text-2xl mt-5 font-bold' >Project Information</h1>
+                  <p className='text-lg '>{Datajson?.information}</p>
               </div>
             </div>
-            <section className='rounded border-2 border-blue-500 w-[90%] mx-auto'>
+            <section className='rounded border-2 border-blue-700 w-[90%] mx-auto text-white'>
               <div className='grid grid-cols-8 text-left'>
                 <div className='col-span-3 mx-5 text-xl'>
                   Technologies
