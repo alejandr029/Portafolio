@@ -8,10 +8,10 @@ import Extra from './extra/extra.tsx';
 export const Userdata = () => {
     return (
     <>
-        <section className="card_content" id="about">
-            <About />    
+        <section className="card_content flex justify-center items-center" id="about">
+            <About />
         </section>
-        
+
         <section className="card_content" id="expirences">
             <Project />
                 
@@ -21,9 +21,7 @@ export const Userdata = () => {
             <Skills/>
         </section>
 
-        <section className="card_content" id="Extra">
-            <Extra />
-        </section>
+        <Extra />
 
 
     </>
