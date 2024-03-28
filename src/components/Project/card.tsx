@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 export default function CardProjects({project}: any) {
     return(
-    <Link className="max-w-sm mx-1 border rounded-t-lg shadow bg-gray-800 border-gray-700 logo_shadow" to={`/Individual_project/${project.id}`}>
+    <Link className="max-w-sm mx-1 border rounded-t-lg shadow bg-gray-800 border-gray-700 logo_shadow m-2" to={`/Individual_project/${project.id}`}>
         
         <picture className="rounded-t-lg h-[186px] flex items-center bg-white">
-            <img className="w-full h-full object-cover" src={project.icon} alt={project.description}/>
+            <img className="w-full h-full object-cover" src={`/portfolio/${project.icon}`} alt={project.description}/>
         </picture>
 
 

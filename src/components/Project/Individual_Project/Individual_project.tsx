@@ -30,7 +30,7 @@ export default function Individual_project() {
             <div className="carousel">
               {Datajson?.images.map((ress: any, key: any) => (
                 <div key={key} id={key + 1} className="carousel-item relative w-full">
-                  <img src={ress}/>
+                  <img src={`/portfolio/${ress}`}/>
                 </div>
               ))}
               

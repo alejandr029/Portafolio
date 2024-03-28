@@ -10,7 +10,7 @@ export default function Skills (){
             <h3 className="title text-3xl font-bold">Skills</h3>
             <section className="grid grid-cols-6 grid-flow-row gap-4 mx-auto w-[80%] mt-5">
 
-                <SkillCard title="Backend" classStyle="col-span-4">
+                <SkillCard title="Backend" classStyle="col-span-4 max-xl:col-span-6">
                         <li>
                             <Python />
                             Python
@@ -35,7 +35,7 @@ export default function Skills (){
                         </li>
                 </SkillCard>
 
-                <SkillCard title="Fronend" classStyle="col-span-2">
+                <SkillCard title="Fronend" classStyle="col-span-2 max-xl:col-span-3 max-md:col-span-6">
                         <li>
                             <HTML />
                             HTML
@@ -67,7 +67,7 @@ export default function Skills (){
 
                 </SkillCard>
 
-                <SkillCard title="Technologies" classStyle="col-span-2">
+                <SkillCard title="Technologies" classStyle="col-span-2 max-xl:col-span-3 max-md:col-span-6">
                         <li>
                             <Linux />
                             Linux
@@ -78,7 +78,7 @@ export default function Skills (){
                         </li>
                 </SkillCard>
 
-                <SkillCard title="Learning" classStyle="col-span-4">
+                <SkillCard title="Learning" classStyle="col-span-4 max-xl:col-span-6 ">
                         <li>
                             <Docker />
                             Docker
