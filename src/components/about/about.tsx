@@ -32,7 +32,7 @@ export default function About() {
             <div className="mt-[40vh] mb-[20vh]  ">
             <h2 className=" font-semibold inline-flex animate-background-shine bg-[linear-gradient(110deg,#64748b,45%,#0f172a,55%,#64748b)] dark:bg-[linear-gradient(110deg,#b6eaff,45%,#065074,55%,#b6eaff)] bg-[length:250%_100%] bg-clip-text text-4xl text-transparent capitalize">about me</h2>
 
-            <section className="information text-xl flex items-center">
+            <section className="information text-xl md:flex items-center">
                 <div>
                     <p>
                     In my journey so far, I've begun to familiarize myself with languages like Python, and JavaScript, finding joy in unraveling their complexities and discovering their potential applications. With each line of code I write, I gain a deeper understanding of the mechanics behind digital experiences.

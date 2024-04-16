@@ -45,7 +45,7 @@ export default function Individual_project() {
 
         </section>
 
-        <section className='md:w-[30%] md:h-[100vh] right-0 max-md:mb-5 p-2 z-20 fixed max-md:relative bg-gray-800/45 overflow-y-scroll'>
+        <section className='md:w-[30%] md:h-[100vh] right-0 max-md:mb-5 py-5 px-2 z-20 fixed max-md:relative bg-gray-800/45 overflow-y-scroll'>
               <div className='my-[5vh]'>
                 <h1 className='text-3xl text-left mx-3 font-bold capitalize text-white'>{Datajson?.title} </h1>
 
