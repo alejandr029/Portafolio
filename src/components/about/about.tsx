@@ -1,5 +1,5 @@
 
-import Icons_About from "./icons";
+import Icons_About from "../icons";
 
 export default function About() {
     return(

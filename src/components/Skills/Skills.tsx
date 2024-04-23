@@ -1,7 +1,7 @@
 import { Csharp, Django, DotNet, NodeJs, Python } from '../../assets/icons_skills/backend.tsx';
 import { Angular, Bootstrap, Css, HTML, JavaScript, React, TypeScript } from '../../assets/icons_skills/frontend.tsx';
 import { Docker, Rust, Tailwind } from '../../assets/icons_skills/learning.tsx';
-import { Git, Linux } from '../../assets/icons_skills/technologie.tsx';
+import { Git, GitHub, Linux } from '../../assets/icons_skills/technologie.tsx';
 import SkillCard from './skillCard.tsx';
 
 export default function Skills (){
@@ -75,6 +75,10 @@ export default function Skills (){
                         <li>
                             <Git />
                             Git
+                        </li>
+                        <li>
+                            <GitHub />
+                            GitHub
                         </li>
                 </SkillCard>
 
