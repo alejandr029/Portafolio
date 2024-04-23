@@ -1,6 +1,7 @@
 import { Navigate, useNavigate, useParams } from 'react-router-dom';
 import ProyectsList from "../../../assets/Project_information.json";
 import { Arrow } from "../../../assets/icons_skills/Icons.tsx";
+import Icons_About from "../../icons.tsx";
 import Technologies from "./technologies.tsx";
 
 export default function Individual_project() {
@@ -54,6 +55,12 @@ export default function Individual_project() {
                   <div><b>Type of Proyect: </b>{Datajson?.type_of_project} </div>
                   <h1 className='text-2xl mt-5 font-bold' >Project Information</h1>
                   <p className='text-lg '>{Datajson?.information}</p>
+
+                  {Datajson?.repository.Url == undefined ? '' :
+                  <Icons_About Name={Datajson?.repository.Program} href={Datajson?.repository.Url}>
+                    <img src={`${Datajson?.repository?.Icon}`} alt={`${Datajson?.repository.Icon} Repositori`} className="w-5 h-5 mx-1"/>
+                  </Icons_About>
+                  }
               </div>
             </div>
             <section className='rounded border-2 border-blue-700 w-[90%] mx-auto text-white'>
@@ -67,8 +74,8 @@ export default function Individual_project() {
                 {Datajson?.technologies.map((ress: any, index: any) => (
                     <Technologies key={index} Technologies={ress} />
                 ))}
-                
               </div>
+              
             </section>
 
         </section>

@@ -11,6 +11,12 @@
         "icon" : "/beautysys.webp",
         "description": "Home Page for Beautysys",
         "type_of_project": "Frontend and Backend",
+        "repository": 
+        {
+            "Program":null,
+            "Url": null,
+            "Icon":null
+        },
         "images":[
             "/beautysys_main.webp"
 
@@ -32,12 +38,46 @@
         "icon" : "/finansaas.webp",
         "description": "Ui desing for finansaas project",
         "type_of_project": "Frontend",
+        "repository":
+        {
+            "Program":null,
+            "Url": null,
+            "Icon":null
+        } ,
         "images":[
             "/finansaas_main.webp"
         ],
         "technologies": [
             "Asp.Net",
             "Angular"
+        ]
+
+    },{
+        "id":2,
+        "date": "March 2024  - April 2024",
+        "title": "BookNest",
+        "function": "Software Developer",
+        "company": "Personal Project",
+        "rewiew": "This project is a web for a library, and it function is show the books information and the functionability to Saved them i other page. The project is made with the purpose of learning new technologies and improve my skills.",
+        "information" : "I made this project for practices, to involve in react project and use recursion for the components, however I made this project with the Zustand Technology for the scalable bearbones state management.",
+        "icon" : "/BookNest.webp",
+        "description": "Ui desing for BookNest project",
+        "type_of_project": "Frontend",
+        "repository": 
+        {
+            "Program":"GitHub",
+            "Url": "https://github.com/alejandr029/BookNest.git",
+            "Icon": "/Portafolio/Icon/github.svg"
+        },
+        "images":[
+            "/BookNest.webp",
+            "/BookNest_saved.webp"
+        ],
+        "technologies": [
+            "React",
+            "Zustand",
+            "Tailwindcss",
+            "TypeScript"
         ]
 
     }

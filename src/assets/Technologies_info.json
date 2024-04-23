@@ -3,5 +3,9 @@
     "Angular": "Angular is a TypeScript-based web application framework. It is maintained by Google and is widely used for building single-page client applications with rich user interfaces.",
     "SQL Server": "SQL Server is a relational database management system (RDBMS) developed by Microsoft. It provides a robust and secure platform for storing, retrieving, and managing data.",
     "Laravel": "Laravel is a PHP-based web application framework known for its elegant syntax and expressive, developer-friendly features. It follows the Model-View-Controller (MVC) architectural pattern.",
-    "laravel jetstream": "Laravel Jetstream is a designed application scaffolding for Laravel, offering authentication, two-factor authentication, session management, API support, and team management functionalities out of the box. It provides a solid foundation for building modern web applications."
+    "laravel jetstream": "Laravel Jetstream is a designed application scaffolding for Laravel, offering authentication, two-factor authentication, session management, API support, and team management functionalities out of the box. It provides a solid foundation for building modern web applications.",
+    "React": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of developers. React allows developers to create reusable UI components and build interactive, dynamic web applications.",
+    "Zustand": "Zustand is a simple and fast state management library for React applications. It provides a way to manage global state in a more efficient and scalable manner, reducing the need for complex state management solutions.",
+    "Tailwindcss": "Tailwind CSS is a utility-first CSS framework that provides a set of pre-built classes to style web applications. It allows developers to quickly build custom designs without writing custom CSS styles.",
+    "TypeScript": "TypeScript is a superset of JavaScript that adds static typing and other features to the language. It helps developers catch errors early in the development process and write more maintainable code."
 }
