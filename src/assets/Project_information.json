@@ -18,6 +18,7 @@
             "Icon":null
         },
         "images":[
+            "/beautysys.webp",
             "/beautysys_main.webp"
 
         ],
@@ -29,31 +30,6 @@
 
     },{
         "id":1,
-        "date": "May 2022  - Aug 2023",
-        "title": "Finansas",
-        "function": "Software Developer",
-        "company": "BajaLogics",
-        "rewiew": "The development of financial data applications and the validation of supplier products. It emphasizes improving performance and reliability while ensuring smooth operations. Effectively communicates proactive contribution and responsibility in maintaining application integrity. Overall, it demonstrates a commitment to excellence in financial data management.",
-        "information" : "In the realm of financial data application and vendor product validation, my role was paramount, tasked with both development and enhancement of functionalities, alongside diligent bug resolution. The overarching objective remained steadfast: to elevate application performance and fortify its reliability in critical operations. The scope of my responsibilities extended to the meticulous validation of diverse vendor products and seamless data processing. Through proactive contribution, I not only introduced novel functionalities but also executed prompt bug fixes, bolstering the application's efficacy. Ultimately, my responsibility was to maintain the seamless operation of the financial data application, safeguarding its integral role in organizational workflows.",
-        "icon" : "/finansaas.webp",
-        "description": "Ui desing for finansaas project",
-        "type_of_project": "Frontend",
-        "repository":
-        {
-            "Program":null,
-            "Url": null,
-            "Icon":null
-        } ,
-        "images":[
-            "/finansaas_main.webp"
-        ],
-        "technologies": [
-            "Asp.Net",
-            "Angular"
-        ]
-
-    },{
-        "id":2,
         "date": "March 2024  - April 2024",
         "title": "BookNest",
         "function": "Software Developer",
