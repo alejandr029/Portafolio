@@ -8,11 +8,11 @@ export const Header = () => {
             
             <h1 className=" md:text-2xl lg:text-4xl font-bold mt-6 w-[90%] ">Software Developer</h1>
             
-            <article className=" mt-10 text-white">
+            <article className=" mt-10 text-white text-lg">
                 <p><a className="text-white hover:text-white" href="#about">About</a></p>
                 <p><a className="text-white hover:text-white" href="#expirences">Expirences</a></p>
                 <p><a className="text-white hover:text-white" href="#skills">Skills</a></p>
-                <p><a className="text-white hover:text-white" href="#Extra">Extra</a></p>
+                <p><a className="text-white hover:text-white" href="#extra">Extra</a></p>
             </article>
 
 

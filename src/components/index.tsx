@@ -21,7 +21,9 @@ export const Userdata = () => {
             <Skills/>
         </section>
 
-        <Extra />
+        <section id="extra">
+            <Extra />
+        </section>
 
 
     </>

@@ -43,7 +43,7 @@
         {
             "Program":"GitHub",
             "Url": "https://github.com/alejandr029/BookNest.git",
-            "Icon": "/Portafolio/Icon/github.svg"
+            "Icon": "/Icon/github.svg"
         },
         "images":[
             "/BookNest.webp",

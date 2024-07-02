@@ -8,7 +8,7 @@ export default function Skills (){
     return(
         <>
             <h3 className="title text-3xl font-bold">Skills</h3>
-            <section className="grid grid-cols-6 grid-flow-row gap-4 mx-auto w-[80%] mt-5">
+            <section className="grid grid-cols-6 grid-flow-row gap-4 m-auto w-[80%] mt-5 py-24">
 
                 <SkillCard title="Backend" classStyle="col-span-4 max-xl:col-span-6">
                         <li>
