@@ -15,7 +15,7 @@ export default function Individual_project() {
         Datajson = ProyectsList[index]; 
 
         if (Datajson === undefined || Object.keys(Datajson).length === 0) {
-              return <Navigate to="/" />
+              return <Navigate to="/Portafolio/" />
         }
         
     }
@@ -31,7 +31,7 @@ export default function Individual_project() {
             <div className="carousel">
               {Datajson?.images.map((ress: any, key: any) => (
                 <div key={key} id={key + 1} className="carousel-item relative w-full">
-                  <img src={`${ress}`}/>
+                  <img src={`/Portafolio/${ress}`}/>
                 </div>
               ))}
               

@@ -44,7 +44,7 @@ export default function About() {
                 </div>
 
                 <img 
-                    src="/avataaars.png" 
+                    src="/Portafolio/avataaars.png" 
                     alt="avatar images"  
                     className=" w-[275px] h-[300px] rounded-full "
                 />
