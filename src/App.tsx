@@ -10,11 +10,11 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/portafolio" element={<Home />} />
         
         <Route path="/Individual_project/:number" element={<Individual_project />} />
 
-        <Route path="*" element={<Navigate  to="/" replace />}/>
+        <Route path="*" element={<Navigate  to="/portafolio" replace />}/>
       </Routes>
     </BrowserRouter>
     </>
