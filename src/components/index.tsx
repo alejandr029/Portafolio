@@ -6,27 +6,25 @@ import Extra from './extra/extra.tsx';
 
 
 export const Userdata = () => {
-    return (
+  return (
     <>
-        <section className="card_content flex justify-center items-center" id="about">
-            <About />
-        </section>
+      <section className="card_content flex justify-center items-center" id="about">
+        <About />
+      </section>
 
-        <section className="card_content" id="expirences">
-            <Project />
-                
-        </section>
+      <section className="card_content" id="expirences">
+        <Project />
 
-        <section className="card_content" id="skills">
-            <Skills/>
-        </section>
+      </section>
 
-        <section id="extra">
-            <Extra />
-        </section>
+      <section className="card_content" id="skills">
+        <Skills />
+      </section>
 
-
+      <section id="extra">
+        <Extra />
+      </section>
     </>
-    );
+  );
 
 };
